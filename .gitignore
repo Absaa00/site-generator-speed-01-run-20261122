@@ -1,0 +1,26 @@
+# Dependencies and build output
+node_modules/
+dist/
+build/
+out/
+.cache/
+
+# Logs and local test artefacts
+*.log
+*.tmp
+*.bak
+coverage/
+.nyc_output/
+
+# Editor and OS leftovers
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
